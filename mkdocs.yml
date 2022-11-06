@@ -1,0 +1,34 @@
+# mkdocs.yml
+site_name: Sickle Cell Disease Ontology
+
+theme:
+  name: "material"
+  favicon: "img/logo2.png"
+  logo: "img/logo2.png"
+
+plugins:
+  - mkdocstrings
+
+extra_javascript:
+  - 'https://code.jquery.com/jquery-3.6.1.min.js'
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+- pymdownx.highlight:
+    anchor_linenums: true
+- pymdownx.inlinehilite
+- pymdownx.snippets
+- pymdownx.superfences
+
+nav:
+  - Introduction: index.md
+  - Download: download.md
+  - API Endpoint: api.md
+  - References: reference.md
+  # - explanation.md
+
+
+
+  # https://realpython.com/python-project-documentation-with-mkdocs/#demo
