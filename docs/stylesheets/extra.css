@@ -1,7 +1,10 @@
-/* body {
-    font-size: 0.3rem;
-} */
-
 * {
     font-size: 0.7rem;
+}
+
+.someclass {
+    height: 700px;
+    width: 700px;
+    border: 10px solid red;
+
 }

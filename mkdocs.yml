@@ -8,6 +8,7 @@ theme:
 
 plugins:
   - mkdocstrings
+  - glightbox
 
 extra_javascript:
   - 'https://code.jquery.com/jquery-3.6.1.min.js'
@@ -28,6 +29,7 @@ nav:
   - API Endpoint: api.md
   - References: reference.md
   # - explanation.md
+
 
 
 

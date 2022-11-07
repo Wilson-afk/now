@@ -9,7 +9,7 @@ Displayed below is the code you would use to execute this API request in Python.
     import json
     import requests
 
-    URL = 'https://ea53-41-157-180-219.sa.ngrok.io/'
+    URL = 'https://f4db-41-157-180-219.sa.ngrok.io'
 
     # sending get request and saving the response as response object
     r = requests.get(url=URL)
@@ -27,7 +27,7 @@ Displayed below is the code you would use to execute this API request in PHP.
 
     $ch = curl_init();
 
-    $url = "https://ea53-41-157-180-219.sa.ngrok.io/";
+    $url = "https://f4db-41-157-180-219.sa.ngrok.io";
 
     curl_setopt($ch, CURLOPT_URL, $url);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -44,3 +44,22 @@ Displayed below is the code you would use to execute this API request in PHP.
     }
 
     curl_close($ch);
+
+## Return
+
+Both API requests return a **JSON** array of **SCDO** terms and their descriptions.
+
+    {
+        "result": [
+            [
+                1,
+                "SCDO:0000005",
+                "Abdominal Ultrasound",
+                "A method of ultrasound imaging in which the ultrasound probe is pressed against the skin of the abdomen in order to create an image of the abdominal organs."
+            ],
+            [
+                2,
+                "SCDO:0000006",
+                "Ability to Carry Out Activities of Daily Living",
+                "The performance of the basic activities of self care, such as dressing, ambulation, or eating."
+            ],
